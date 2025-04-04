@@ -1,8 +1,9 @@
+#Program to check if a phrase has balanced paranthesis
 open = ['(', '[', '{' ]
 close = [ ')', ']', '}' ]
 pairs = [ '()', '[]', '{}' ]
 
-def balan(str1):
+def balanced(str1):
   stack = []
   for chr in str1:
      if chr in open:
@@ -15,6 +16,7 @@ def balan(str1):
      return "NO"
   return "YES"
 
+#input string
 str1 = "{{}}"
-print(balan(str1))
+print(balanced(str1))
    
