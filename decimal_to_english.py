@@ -4,13 +4,13 @@ ones = ["", "one","two","three","four","five","six","seven","eight","nine"]
 teens = ["ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
 tens = ["","","twenty","thirty","fourty","fifty","sixty","seventy", "eighty", "ninety"]
 
-num = 68
+num = 19
 
-if num in range(9):
+if num in range(10):
   print(numbers[num])
   sys.exit()
 
-if num in range(10, 19):
+if num in range(10, 20):
   one = num % 10
   print(teens[one])
   sys.exit()
